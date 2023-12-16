@@ -10,8 +10,7 @@ each thread. Backtracking is used to explore the solution space, and the program
 handles concurrent execution and synchronization.
 ## How Each Class Work
 1. GUI Initialization (GUIMain class):
-  ○ A graphical user interface (GUI) is created using the Swing
-    framework.
+  ○ A graphical user interface (GUI) is created using the Swing framework.
   ○ The user is prompted to enter the size of the chessboard (N)
     through a text field.
   ○ The "Submit" button triggers the initiation of the solver.
