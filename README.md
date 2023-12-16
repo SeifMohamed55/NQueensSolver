@@ -10,21 +10,21 @@ each thread. Backtracking is used to explore the solution space, and the program
 handles concurrent execution and synchronization.
 ## How Each Class Work
 1. GUI Initialization (GUIMain class):
-  ○ A graphical user interface (GUI) is created using the Swing framework.
-  ○ The user is prompted to enter the size of the chessboard (N)
+  * A graphical user interface (GUI) is created using the Swing framework.
+  * The user is prompted to enter the size of the chessboard (N)
     through a text field.
-  ○ The "Submit" button triggers the initiation of the solver.
+  * The "Submit" button triggers the initiation of the solver.
 2. Main Class (Main class):
-  ○ Creates the main frame and initializes necessary components.
-  ○ Upon "Submit" button click:
-  ■ Validates the input to ensure it's a positive integer.
-  ■ Initializes a thread group (MyThreadGroup), a mutex,
-    and an atomic integer to coordinate and track solutions.
-  ■ Disposes of the main frame to allow the solver threads
-    to run independently.
-  ■ Creates a chessboard (MyTable), and for each column in
-    the board, creates a thread associated with a NQueensSolver instance.
-  ■ Start each thread.
+  * Creates the main frame and initializes necessary components.
+  * Upon "Submit" button click:
+    + Validates the input to ensure it's a positive integer.
+    + Initializes a thread group (MyThreadGroup), a mutex,
+      and an atomic integer to coordinate and track solutions.
+    + Disposes of the main frame to allow the solver threads
+      to run independently.
+    + Creates a chessboard (MyTable), and for each column in
+      the board, creates a thread associated with a NQueensSolver instance.
+    + Start each thread.
 3. Table for Displaying Solutions (MyTable class):
   ○ Extends JFrame to create a table for displaying thread
     outputs.
