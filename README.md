@@ -26,31 +26,30 @@ handles concurrent execution and synchronization.
       the board, creates a thread associated with a NQueensSolver instance.
     + Start each thread.
 3. Table for Displaying Solutions (MyTable class):
-  ○ Extends JFrame to create a table for displaying thread
+  * Extends JFrame to create a table for displaying thread
     outputs.
-  ○ Utilizes a JTable with a DefaultTableModel to dynamically add
+  * Utilizes a JTable with a DefaultTableModel to dynamically add
     rows.
-  ○ Provides methods to add rows to the table (addRow).
+  * Provides methods to add rows to the table (addRow).
 4. Utilities Class:
-  ○ Contains utility methods for positioning frames on the screen
+  * Contains utility methods for positioning frames on the screen
     (centerFrameOnScreen, moveFrameToLeftTop, moveFrameToRightTop, etc.).
-  ○ Includes a delay method for thread synchronization (delay).
+  * Includes a delay method for thread synchronization (delay).
 5. N Queens Solver (NQueensSolver class):
-  ○ Implements the Runnable interface for concurrent execution.
-  ○ Receives a mutex, thread group, chessboard, board size,
+  * Implements the Runnable interface for concurrent execution.
+  * Receives a mutex, thread group, chessboard, board size,
     atomic integer for solution count, and a table for display.
-  ○ Uses backtracking to solve the N Queens Problem concurrently:
-    ■ solveNQUtil is a recursive method exploring the
+  * Uses backtracking to solve the N Queens Problem concurrently:
+    + solveNQUtil is a recursive method exploring the
       solution space.
-    ■ The main run method handles the overall flow of the
+    + The main run method handles the overall flow of the
       solver, updates the display table, and handles interruptions.
    
-6. Chess Board Representation (ChessBoard class):
-   
-  ○ Represents the chessboard visually using a GUI.
-  ○ Utilizes a 2D array to represent the logical state of the
+6. Chess Board Representation (ChessBoard class):   
+  * Represents the chessboard visually using a GUI.
+  * Utilizes a 2D array to represent the logical state of the
     chessboard.
-  ○ Provides methods to set and empty buttons on the
+  * Provides methods to set and empty buttons on the
     chessboard (setButton, emptyButton).
-  ○ Initializes the graphical representation of the chessboard with
+  * Initializes the graphical representation of the chessboard with
     a Swing-based GUI.
