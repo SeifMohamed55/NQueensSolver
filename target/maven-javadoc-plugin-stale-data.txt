@@ -1,0 +1,51 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java;I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'NQueensSolver 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'NQueensSolver 1.0-SNAPSHOT API'
+com.os.nqueenssolver
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java/com/os/nqueenssolver/ChessBoard.java'
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java/com/os/nqueenssolver/GUIMain.java'
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java/com/os/nqueenssolver/Main.java'
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java/com/os/nqueenssolver/MyTable.java'
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java/com/os/nqueenssolver/NQueensSolver.java'
+'I:/Seif/FCAI/year three/first semester/OS 2/NQueensSolver/src/main/java/com/os/nqueenssolver/Utilities.java'
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\src\main\java = 1701726700974
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\generated-sources\annotations = 1702588466118
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\allclasses-index.html = 1702590459794
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\allpackages-index.html = 1702590459798
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\element-list = 1702590459630
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\help-doc.html = 1702590459853
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\index-all.html = 1702590459841
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\index.html = 1702590459846
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\jquery-ui.overrides.css = 1702590459924
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\member-search-index.js = 1702590459813
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\module-search-index.js = 1702590459800
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\overview-tree.html = 1702590459771
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\package-search-index.js = 1702590459802
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\script.js = 1702590459869
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\search.js = 1702590459873
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\serialized-form.html = 1702590459700
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\stylesheet.css = 1702590459864
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\tag-search-index.js = 1702590459816
+I:\Seif\FCAI\year three\first semester\OS 2\NQueensSolver\target\apidocs\type-search-index.js = 1702590459808
